@@ -36,11 +36,11 @@ body {
 /* Hover and active styles */
 .nav-link:hover {
   background-color: #575757;
-  color: #ffcc00;
+  color: orange;
 }
 
 .active-link {
-  background-color: #ffcc00;
+  background-color: rgb(255, 166, 0);
   color: #333;
   border-radius: 5px;
 }
