@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">MySite</div>
+      <div className="logo">Developer <span style={{color:"orange"}}>Joseph</span></div>
       <ul className="nav-links">
         <li>
           <NavLink 
