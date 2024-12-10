@@ -5,9 +5,9 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import Home from "./PAGES/ABOUT/HOME/Home";
+import Home from "./PAGES/HOME/Home";
 import About from "./PAGES/ABOUT/About";
-import Contact from "./PAGES/ABOUT/CONTACT/Contact";
+import Contact from "./PAGES/CONTACT/Contact";
 import Navbar from "./COMPONENTS/HEADER/Navbar";
 import "./App.css";
 

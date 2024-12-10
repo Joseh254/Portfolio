@@ -5,7 +5,7 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import "./Hero.css";
-function Hero() {
+function Hero() { 
   return (
     <section className="hero-section">
       <div>
