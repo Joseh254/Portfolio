@@ -14,6 +14,11 @@
   height: auto;
   padding: 1rem;
 }
+@media screen and (min-width:48.25em){
+   .hero-image{
+    display: none;
+   } 
+}
 .hero-section img {
   width: 100%;
   max-width: 60rem;
