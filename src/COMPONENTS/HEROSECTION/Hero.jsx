@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import me from "../../assets/me.jpg";
+import me from "../../assets/me.png";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -36,13 +36,13 @@ function Hero() {
             <IoLogoFacebook />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Joseh254"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/joseph-mbugua-51a1b5299/" target="_blank">
             <FaLinkedin />
           </a>
         </div>
