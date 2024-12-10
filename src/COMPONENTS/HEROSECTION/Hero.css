@@ -6,7 +6,7 @@
   background-color: #000000;
   color: #fff;
   padding: 2rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   
 }
 .hero-image {
@@ -14,7 +14,7 @@
   height: auto;
   padding: 1rem;
 }
-@media screen and (min-width:48.25em){
+@media screen and (max-width:38.25em){
    .hero-image{
     display: none;
    } 
