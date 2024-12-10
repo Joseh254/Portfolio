@@ -1,15 +1,20 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
 import Home from "./PAGES/ABOUT/HOME/Home";
 import About from "./PAGES/ABOUT/About";
 import Contact from "./PAGES/ABOUT/CONTACT/Contact";
 import Navbar from "./COMPONENTS/HEADER/Navbar";
-import "./App.css"; 
+import "./App.css";
 
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

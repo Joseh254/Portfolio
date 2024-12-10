@@ -1,58 +1,79 @@
-/* General styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+/* globals.css */
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  padding: 1rem;
-  color: #fff;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
+/* Reset some default styles to ensure consistency across browsers */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-/* Hover and active styles */
-.nav-link:hover {
-  background-color: #575757;
-  color: orange;
-}
-
-.active-link {
-  background-color: rgb(255, 166, 0);
+/* Body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
   color: #333;
-  border-radius: 5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
+/* Add some default padding and margin */
+html, body {
+  height: 100%;
+}
 
-  .nav-link {
-    margin-bottom: 0.5rem;
-  }
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+/* Flexbox Helper Classes */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Utility Classes */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
