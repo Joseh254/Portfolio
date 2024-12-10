@@ -20,12 +20,18 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   max-width: 112.5em;
-  }
-  
-  p, h1, h2, h3, h4, h5, h6 {
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
-a{
+a {
   text-decoration: none;
   color: #fff;
 }

@@ -7,29 +7,28 @@
   color: #fff;
   padding: 2rem;
   flex-wrap: nowrap;
-  
 }
 .hero-image {
   width: 40%;
   height: auto;
   padding: 1rem;
 }
-@media screen and (max-width:38.25em){
-   .hero-image{
+@media screen and (max-width: 38.25em) {
+  .hero-image {
     display: none;
-   } 
+  }
 }
 .hero-section img {
   width: 100%;
   max-width: 60rem;
   height: auto;
 }
-.social-links{
-    display: flex;
-    gap: 3rem;
-    margin-top: 2rem;
+.social-links {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
 }
-.social-links a{
-    color: orange;
-    font-size: 2rem;
+.social-links a {
+  color: orange;
+  font-size: 2rem;
 }
