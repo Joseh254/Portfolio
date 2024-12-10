@@ -10,7 +10,7 @@ function Hero() {
     <section className="hero-section">
       <div>
         <h1 style={{display:"flex",fontSize:"5rem",fontFamily:"cursive"}}>Hi, I'm Joseph Mbugua</h1>
-        <p>A Fullstack Web Developer</p>
+        <p style={{color:"orange"}}>A Fullstack Web Developer</p>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
           blanditiis.
@@ -22,12 +22,12 @@ function Hero() {
           Lorem ipsum dolor sit amet, consectetur
         </p>
 
-        <div>
-          <Link to={"/"}>Join Me</Link>
-          <Link to={"/"}>Let's Talk</Link>
+        <div style={{display:"flex",gap:"2rem",marginTop:"2rem",fontWeight:"800"}}>
+          <Link to={"/"} style={{padding:"1rem 4rem",backgroundColor:"orange"}}>Join Me</Link>
+          <Link to={"/"} style={{padding:"1rem 4rem",border:"1px solid orange"}}>Let's Talk</Link>
         </div>
 
-        <div>
+        <div className="social-links">
           <a
             href="https://www.facebook.com"
             target="_blank"

@@ -19,3 +19,12 @@
   max-width: 60rem;
   height: auto;
 }
+.social-links{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.social-links a{
+    color: orange;
+    font-size: 2rem;
+}

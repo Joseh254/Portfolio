@@ -1,79 +1,31 @@
-/* globals.css */
-
-/* Reset some default styles to ensure consistency across browsers */
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-/* Body styling */
+html {
+  font-size: 62.5%;
+}
+
+html,
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4; /* Light gray background */
-  color: #333;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
-/* Add some default padding and margin */
-html, body {
-  height: 100%;
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  max-width: 112.5em;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
 }
-
-#root {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Typography */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
-}
-
-p {
-  margin-bottom: 1.2rem;
-}
-
-/* Links */
-a {
+a{
   text-decoration: none;
-  color: inherit;
-}
-
-/* Buttons */
-button {
-  background-color: orange;
-  color: white;
-  border: none;
-  padding: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: darkorange;
-}
-
-/* Flexbox Helper Classes */
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Utility Classes */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
+  color: #fff;
 }
