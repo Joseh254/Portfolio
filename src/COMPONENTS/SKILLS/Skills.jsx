@@ -13,15 +13,15 @@ import { faServer, faDatabase, faCogs } from "@fortawesome/free-solid-svg-icons"
 
 function Skills() {
   const skills = [
-    { name: "Git & GitHub", icon: faGithub },
-    { name: "HTML", icon: faHtml5 },
-    { name: "CSS", icon: faCss3Alt },
-    { name: "JavaScript", icon: faJsSquare },
-    { name: "React", icon: faReact },
-    { name: "Express.js", icon: faServer },
-    { name: "SQL", icon: faDatabase },
-    { name: "PostgreSQL", icon: faDatabase },
-    { name: "Prisma ORM", icon: faCogs },
+    { name: "Git & GitHub", icon: faGithub , description: "For Collaboration"},
+    { name: "HTML", icon: faHtml5 , description: "For web elements"},
+    { name: "CSS", icon: faCss3Alt , description: "For styling"},
+    { name: "JavaScript", icon: faJsSquare , description: "For dynamic behaviour"},
+    { name: "React", icon: faReact , description: " For UI development"},
+    { name: "Express.js", icon: faServer , description: "For Backend"},
+    { name: "SQL", icon: faDatabase , description: "For Databse" },
+    { name: "PostgreSQL", icon: faDatabase , description: "For database"},
+    { name: "Prisma ORM", icon: faCogs , description: "For sql"},
   ];
 
   return (
@@ -34,6 +34,7 @@ function Skills() {
         {skills.map((skill, index) => (
           <div className="skill-card" key={index}>
             <FontAwesomeIcon icon={skill.icon} className="skill-icon" />
+            <p className="skill-description">{skill.description}</p>
             <p className="skill-name">{skill.name}</p>
           </div>
         ))}

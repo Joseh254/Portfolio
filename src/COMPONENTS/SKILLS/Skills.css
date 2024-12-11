@@ -39,7 +39,14 @@
     margin-bottom: 1rem;
     color: #f39c12;
   }
-  
+  .skill-description{
+    display: none;
+  }
+  .skill-card:hover{
+    .skill-description{
+      display: flex;
+    }
+  }
   .skill-name {
     font-size: 1.5rem;
     font-weight: bold;
