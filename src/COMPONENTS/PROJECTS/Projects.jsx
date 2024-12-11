@@ -1,6 +1,13 @@
 import React from "react";
 import "./Projects.css";
 import project1 from '../../assets/project1.png'
+import project2 from '../../assets/project2.png'
+import project3 from '../../assets/project3.png'
+import project4 from '../../assets/project4.png'
+import project5 from '../../assets/project5.png'
+import project6 from '../../assets/project6.png'
+import project7 from '../../assets/project7.png'
+
 function Projects() {
   const projects = [
     {
@@ -8,7 +15,7 @@ function Projects() {
       description:
         "A fully-featured e-commerce platform with user authentication, product management, and payment integration.",
       techStack: "React, Node.js, Express, MongoDB",
-      image: project1,
+      image: project2,
       link: "https://jos-tech-computers-website-uxdd.vercel.app/",
     },
     {
@@ -24,7 +31,7 @@ function Projects() {
       description:
         "A task management app to track daily activities and increase productivity.",
       techStack: "React Native, Firebase",
-      image: project1, 
+      image: project7, 
       link: "https://mog-rex-task2-ovii.vercel.app/",
     },
     {
@@ -32,7 +39,7 @@ function Projects() {
         description:
           "A task management app to track daily activities and increase productivity.",
         techStack: "React Native, Firebase",
-        image: project1, 
+        image: project6, 
         link: "https://random-joke-generator-alpha.vercel.app/",
       },
       {
@@ -40,7 +47,7 @@ function Projects() {
         description:
           "A task management app to track daily activities and increase productivity.",
         techStack: "React Native, Firebase",
-        image: project1, 
+        image: project4, 
         link: "https://github-finder-app-one-omega.vercel.app/",
       },
       {
@@ -48,7 +55,7 @@ function Projects() {
         description:
           "A task management app to track daily activities and increase productivity.",
         techStack: "React Native, Firebase",
-        image: project1, 
+        image: project3, 
         link: "https://murang-a-university-tech-club-website.vercel.app/",
       },
       {
@@ -56,7 +63,7 @@ function Projects() {
         description:
           "A task management app to track daily activities and increase productivity.",
         techStack: "React Native, Firebase",
-        image: project1, 
+        image: project5, 
         link: "https://zaph-tours-website.vercel.app/",
       },
   ];
