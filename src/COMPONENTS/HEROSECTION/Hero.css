@@ -13,6 +13,18 @@
   width: 40%;
   height: auto;
   padding: 1rem;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 @media screen and (max-width:38.25em){
    .hero-image{

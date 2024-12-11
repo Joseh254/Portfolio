@@ -7,7 +7,8 @@ import { FaLinkedin } from "react-icons/fa6";
 import "./Hero.css";
 function Hero() { 
   return (
-    <section className="hero-section">
+   <div>
+     <section className="hero-section">
       <div>
         <h1
           style={{ display: "flex", fontSize: "5rem", fontFamily: "cursive" }}
@@ -84,7 +85,9 @@ function Hero() {
       <div className="hero-image">
         <img src={me} alt="Joseph Mbugua" />
       </div>
+      
     </section>
+   </div>
   );
 }
 

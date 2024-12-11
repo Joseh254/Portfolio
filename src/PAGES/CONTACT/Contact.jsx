@@ -1,6 +1,7 @@
 // Contact.jsx
 import React, { useState } from "react";
 import "./Contact.css";
+import SimpleSlider from "../../COMPONENTS/SLIDER/SimpleSlider";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -66,6 +67,7 @@ function Contact() {
         </div>
         <button type="submit" className="submit-button">Send Message</button>
       </form>
+      <SimpleSlider/>
     </section>
   );
 }
