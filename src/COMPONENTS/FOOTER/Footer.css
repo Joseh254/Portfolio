@@ -1,0 +1,60 @@
+/* Footer Styles */
+.footer {
+    background-color: #1a1a1a;
+    color: var(--white-color);
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .contact-info, .social-links {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  p{
+    font-size: 1.1em;
+    color: var(--white-color);
+    text-decoration: none;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links ul li {
+    margin-bottom: 15px;
+  }
+  
+  .social-links ul li a {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white-color);
+    transition: color 0.3s ease;
+  }
+  
+ 
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 1em;
+    color: var(--white-color);
+    border-top: 1px solid var(--primary-color);
+    padding-top: 10px;
+  }
+  

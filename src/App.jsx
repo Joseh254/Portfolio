@@ -9,6 +9,7 @@ import Home from "./PAGES/HOME/Home";
 import About from "./PAGES/ABOUT/About";
 import Contact from "./PAGES/CONTACT/Contact";
 import Navbar from "./COMPONENTS/HEADER/Navbar";
+import Footer from "./COMPONENTS/FOOTER/Footer";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
