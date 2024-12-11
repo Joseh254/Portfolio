@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
-import './About.css'; // CSS file for styles
+import './About.css'; 
+
 
 const About = () => {
   const fadeIn = useSpring({
