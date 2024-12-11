@@ -14,7 +14,7 @@ function Projects() {
       title: "Jos-tech computers ",
       description:
         "A fully-featured e-commerce platform with user authentication, product management, and payment integration.",
-      techStack: "React, Node.js, Express, MongoDB",
+      techStack: "React, Node.js, Express, Postgresql",
       image: project2,
       link: "https://jos-tech-computers-website-uxdd.vercel.app/",
     },
@@ -29,40 +29,40 @@ function Projects() {
     {
       title: "dev sof landing page",
       description:
-        "A task management app to track daily activities and increase productivity.",
-      techStack: "React Native, Firebase",
+        "A landing page for devsof that showcase their services and products to customers.",
+      techStack: "React, Css & Javascript",
       image: project7, 
       link: "https://mog-rex-task2-ovii.vercel.app/",
     },
     {
         title: "random joke generator",
         description:
-          "A task management app to track daily activities and increase productivity.",
-        techStack: "React Native, Firebase",
+          "A react application that intergrate Api to provide a joke everytime a button is clicked.",
+        techStack: "React, Css & Javascript",
         image: project6, 
         link: "https://random-joke-generator-alpha.vercel.app/",
       },
       {
         title: "github finder app",
         description:
-          "A task management app to track daily activities and increase productivity.",
-        techStack: "React Native, Firebase",
+          "A react appplication that uses github api to perform github activities .",
+        techStack: "React, Css, Javascript",
         image: project4, 
         link: "https://github-finder-app-one-omega.vercel.app/",
       },
       {
         title: "mut tech-club website",
         description:
-          "A task management app to track daily activities and increase productivity.",
-        techStack: "React Native, Firebase",
+          "Mut website that shows details about the tech club.",
+        techStack: "React, Css & Javascript",
         image: project3, 
         link: "https://murang-a-university-tech-club-website.vercel.app/",
       },
       {
         title: "zaph-tours website",
         description:
-          "A task management app to track daily activities and increase productivity.",
-        techStack: "React Native, Firebase",
+          "A travel tour website that shows various places to visit.",
+        techStack: "React, Css & Javascript",
         image: project5, 
         link: "https://zaph-tours-website.vercel.app/",
       },
