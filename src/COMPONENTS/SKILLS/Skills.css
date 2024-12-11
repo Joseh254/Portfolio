@@ -1,0 +1,52 @@
+.skills-section {
+    padding: 3rem 1.5rem;
+    background-color: #111; /* Matches your portfolio theme */
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .skill-card {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .skill-icon:hover {
+    color: #ff9900; /* Accent color */
+  }
+  
+  .skill-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white-color);
+  }
+  

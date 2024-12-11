@@ -4,12 +4,12 @@ import project1 from '../../assets/project1.png'
 function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Jos-tech computers ",
       description:
         "A fully-featured e-commerce platform with user authentication, product management, and payment integration.",
       techStack: "React, Node.js, Express, MongoDB",
       image: project1,
-      link: "https://your-ecommerce-link.com",
+      link: "https://jos-tech-computers-website-uxdd.vercel.app/",
     },
     {
       title: "Portfolio Website",
@@ -17,16 +17,48 @@ function Projects() {
         "A sleek and responsive portfolio showcasing my projects, skills, and achievements.",
       techStack: "React, CSS, JavaScript",
       image: project1, 
-      link: "https://your-portfolio-link.com",
+      link: "https://joseph-mbugua-portfolio.vercel.app/",
     },
     {
-      title: "Task Manager App",
+      title: "dev sof landing page",
       description:
         "A task management app to track daily activities and increase productivity.",
       techStack: "React Native, Firebase",
       image: project1, 
-      link: "https://your-task-manager-link.com",
+      link: "https://mog-rex-task2-ovii.vercel.app/",
     },
+    {
+        title: "random joke generator",
+        description:
+          "A task management app to track daily activities and increase productivity.",
+        techStack: "React Native, Firebase",
+        image: project1, 
+        link: "https://random-joke-generator-alpha.vercel.app/",
+      },
+      {
+        title: "github finder app",
+        description:
+          "A task management app to track daily activities and increase productivity.",
+        techStack: "React Native, Firebase",
+        image: project1, 
+        link: "https://github-finder-app-one-omega.vercel.app/",
+      },
+      {
+        title: "mut tech-club website",
+        description:
+          "A task management app to track daily activities and increase productivity.",
+        techStack: "React Native, Firebase",
+        image: project1, 
+        link: "https://murang-a-university-tech-club-website.vercel.app/",
+      },
+      {
+        title: "zaph-tours website",
+        description:
+          "A task management app to track daily activities and increase productivity.",
+        techStack: "React Native, Firebase",
+        image: project1, 
+        link: "https://zaph-tours-website.vercel.app/",
+      },
   ];
 
   return (
