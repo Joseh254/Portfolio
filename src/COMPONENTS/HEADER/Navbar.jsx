@@ -20,7 +20,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/about"
+            to="/About"
             className={({ isActive }) =>
               isActive ? "nav-link active-link" : "nav-link"
             }

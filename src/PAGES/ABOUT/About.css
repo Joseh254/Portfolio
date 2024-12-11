@@ -1,0 +1,82 @@
+.about-section {
+    background-color: var(--secondary-color);
+    padding: 80px 20px;
+    text-align: center;
+    color: var(--white-color);
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-header h2 {
+    font-size: 2.8em;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .about-header p {
+    font-size: 1.2em;
+    color: var(--white-color);
+    line-height: 1.6;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .about-info, .skills {
+    max-width: 800px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .about-info h3, .skills h3 {
+    font-size: 2em;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  .about-info p {
+    font-size: 1.1em;
+    color: var(--white-color);
+    line-height: 1.8;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    font-size: 1.2em;
+    color: var(--white-color);
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    margin-top: 40px;
+  }
+  
+  .contact-btn {
+    background-color:var(--primary-color);
+    color: var(--white-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #45a049;
+  }
+  
