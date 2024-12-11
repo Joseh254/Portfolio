@@ -4,6 +4,7 @@
     background-color: #1e1e1e;
     color: var(--white-color);
     border-bottom: solid var(--primary-color) 1px;
+    height: unset;
   }
   
   .section-title {
@@ -45,6 +46,9 @@
   .skill-card:hover{
     .skill-description{
       display: flex;
+    }
+    .skill-name{
+      display: none;
     }
   }
   .skill-name {

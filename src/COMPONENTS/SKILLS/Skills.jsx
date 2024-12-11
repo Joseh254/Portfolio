@@ -13,13 +13,13 @@ import { faServer, faDatabase, faCogs } from "@fortawesome/free-solid-svg-icons"
 
 function Skills() {
   const skills = [
-    { name: "Git & GitHub", icon: faGithub , description: "For Collaboration"},
-    { name: "HTML", icon: faHtml5 , description: "For web elements"},
+    { name: "Git & GitHub", icon: faGithub , description: "Collaboration"},
+    { name: "HTML", icon: faHtml5 , description: "Web elements"},
     { name: "CSS", icon: faCss3Alt , description: "For styling"},
-    { name: "JavaScript", icon: faJsSquare , description: "For dynamic behaviour"},
-    { name: "React", icon: faReact , description: " For UI development"},
+    { name: "JavaScript", icon: faJsSquare , description: "dynamic"},
+    { name: "React", icon: faReact , description: "UI development"},
     { name: "Express.js", icon: faServer , description: "For Backend"},
-    { name: "SQL", icon: faDatabase , description: "For Databse" },
+    { name: "SQL", icon: faDatabase , description: "For Database" },
     { name: "PostgreSQL", icon: faDatabase , description: "For database"},
     { name: "Prisma ORM", icon: faCogs , description: "For sql"},
   ];
