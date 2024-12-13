@@ -10,6 +10,18 @@
 color: var(--primary-color);
 font-size: 3rem;
 padding: 0.5rem;
+animation: heading 2s ease 0s 1 normal forwards;
+}
+@keyframes heading {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 .experience-container{
     display: flex;
@@ -26,8 +38,19 @@ padding: 0.5rem;
         border-radius: 8px;
         position: relative;
         overflow: hidden; 
+        animation: card 2s ease 0s 1 normal forwards;
     }
+    @keyframes card {
+        0% {
+            opacity: 0;
+            transform: translateX(250px);
+        }
     
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
     
     .experience-card::before,
     .experience-card::after {
@@ -53,5 +76,13 @@ padding: 0.5rem;
     .experience-card:hover::before,
     .experience-card:hover::after {
         width: 100%;
+    }
+    .experience-card h1{
+        color: var(--primary-color);
+        text-transform: capitalize;
+    }
+    .experience-card h3{
+        text-decoration: underline gold;
+        margin-bottom: .5rem;
     }
     
