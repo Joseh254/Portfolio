@@ -1,12 +1,12 @@
 import React from "react";
 import "./Projects.css";
-import project1 from '../../assets/project1.png'
-import project2 from '../../assets/project2.png'
-import project3 from '../../assets/project3.png'
-import project4 from '../../assets/project4.png'
-import project5 from '../../assets/project5.png'
-import project6 from '../../assets/project6.png'
-import project7 from '../../assets/project7.png'
+import project1 from '../../assets/project1.png';
+import project2 from '../../assets/project2.png';
+import project3 from '../../assets/project3.png';
+import project4 from '../../assets/project4.png';
+import project5 from '../../assets/project5.png';
+import project6 from '../../assets/project6.png';
+import project7 from '../../assets/project7.png';
 
 function Projects() {
   const projects = [
@@ -37,7 +37,7 @@ function Projects() {
     {
         title: "random joke generator",
         description:
-          "A react application that intergrate Api to provide a joke everytime a button is clicked.",
+          "A react application that integrates an API to provide a joke every time a button is clicked.",
         techStack: "React, Css & Javascript",
         image: project6, 
         link: "https://random-joke-generator-alpha.vercel.app/",
@@ -45,7 +45,7 @@ function Projects() {
       {
         title: "github finder app",
         description:
-          "A react appplication that uses github api to perform github activities .",
+          "A React application that uses GitHub API to perform GitHub activities.",
         techStack: "React, Css, Javascript",
         image: project4, 
         link: "https://github-finder-app-one-omega.vercel.app/",
