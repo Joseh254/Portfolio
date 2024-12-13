@@ -33,12 +33,15 @@ animation: heading 2s ease 0s 1 normal forwards;
         display: flex;
         flex-direction: column;
         width: 30rem;
-        background-color: rgb(26, 20, 3);
+        background-color: rgb(39, 31, 8);
         padding: 1rem;
         border-radius: 8px;
+        padding: 2rem;
         position: relative;
         overflow: hidden; 
         animation: card 2s ease 0s 1 normal forwards;
+        clip-path: polygon(0% 0%, 94% 0, 100% 50%, 94% 100%, 0% 100%);
+
     }
     @keyframes card {
         0% {
