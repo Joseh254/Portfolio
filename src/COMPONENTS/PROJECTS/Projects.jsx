@@ -79,6 +79,9 @@ function Projects() {
               alt={`${project.title} screenshot`}
               className="project-image"
             />
+            <div className="project-title">
+              <h3 style={{color:"orange"}}>{project.title}</h3>
+            </div>
             <div className="project-details">
               <h3>{project.title}</h3>
               <p>{project.description}</p>

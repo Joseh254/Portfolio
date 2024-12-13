@@ -35,6 +35,20 @@
   object-fit: cover;
 }
 
+.project-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: var(--white-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  border-top: solid var(--primary-color) 1px;
+}
+
 .project-details {
   position: absolute;
   bottom: 0; /* Start from the bottom */
@@ -50,7 +64,7 @@
   padding: 1rem;
   opacity: 0; /* Initially hidden */
   transform: translateY(100%); /* Start off-screen below */
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .project-card:hover .project-details {
@@ -62,6 +76,7 @@
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
+  color: var(--primary-color);
   border-bottom: solid var(--primary-color) 1px;
   animation: slide-up 0.5s ease forwards;
 }
