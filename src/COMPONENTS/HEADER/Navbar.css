@@ -65,7 +65,6 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  /* Hide the nav links by default */
   .nav-links {
     display: none;
     flex-direction: column;
@@ -78,7 +77,6 @@
     z-index: 999;
   }
 
-  /* Show the nav links when the menu is open */
   .nav-links.active {
     display: flex;
   }

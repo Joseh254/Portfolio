@@ -15,14 +15,12 @@ function Navbar() {
         Developer <span style={{ color: "white" }}>Joseph</span>
       </div>
 
-      {/* Hamburger Icon for Mobile View */}
       <div className="hamburger" onClick={toggleMenu}>
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>
       </div>
 
-      {/* Mobile and Desktop Navigation Links */}
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
         <li>
           <NavLink

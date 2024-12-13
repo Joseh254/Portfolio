@@ -1,0 +1,57 @@
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 1.5rem;
+}.experience-heading{
+color: var(--primary-color);
+font-size: 3rem;
+padding: 0.5rem;
+}
+.experience-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .experience-card {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        background-color: rgb(26, 20, 3);
+        padding: 1rem;
+        border-radius: 8px;
+        position: relative;
+        overflow: hidden; 
+    }
+    
+    
+    .experience-card::before,
+    .experience-card::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 0; 
+        background-color: var(--primary-color);
+        transition: width 1.5s ease; 
+    }
+    
+    .experience-card::before {
+        top: 0; 
+        left: 0;
+    }
+    
+    .experience-card::after {
+        bottom: 0; 
+        left: 0;
+    }
+    
+   
+    .experience-card:hover::before,
+    .experience-card:hover::after {
+        width: 100%;
+    }
+    
