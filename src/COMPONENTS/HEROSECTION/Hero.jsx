@@ -6,15 +6,24 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import "./Hero.css";
 function Hero() { 
-  return (
+  const name=[,"j","o","s","e","p","h",".","m","b","u","g","u","a"]
+  return ( 
    <div>
      <section className="hero-section">
       <div>
-        <h1
-          style={{ display: "flex", fontSize: "5rem", fontFamily: "cursive" }}
-        >
-          Hi, I'm Joseph Mbugua
-        </h1>
+      <p style={{fontSize:"4rem"}}>Hi I'M</p>
+      <div className="names-array">
+        {name.map((letter, index) => (
+          <p
+            key={index}
+            style={{
+              animationDelay: `${index * 0.2}s`, // Delay for each letter
+            }}
+          >
+            {letter}
+          </p>
+        ))}
+      </div>
         <p style={{ color: "orange" }}>A Fullstack Web Developer</p>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,

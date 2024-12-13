@@ -9,6 +9,30 @@
   flex-wrap: nowrap;
   
 }
+.names-array {
+  display: flex;
+  font-size: 5rem;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.names-array p {
+  opacity: 0;
+  transform: translateX(250px);
+  animation: slideWord 2s ease forwards;
+}
+
+@keyframes slideWord {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .hero-image {
   width: 40%;
   height: auto;
