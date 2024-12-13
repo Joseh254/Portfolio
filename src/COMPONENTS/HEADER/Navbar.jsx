@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="logo">
         Developer <span style={{ color: "white" }}>Joseph</span>
       </div>
-      <ul className="nav-links">
+
+      {/* Hamburger Icon for Mobile View */}
+      <div className="hamburger" onClick={toggleMenu}>
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+      </div>
+
+      {/* Mobile and Desktop Navigation Links */}
+      <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
         <li>
           <NavLink
             to="/"
