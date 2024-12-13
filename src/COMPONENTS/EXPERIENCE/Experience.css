@@ -37,10 +37,12 @@ animation: heading 2s ease 0s 1 normal forwards;
         padding: 1rem;
         border-radius: 8px;
         padding: 2rem;
+        border-right: solid var(--primary-color) 7px;
         position: relative;
         overflow: hidden; 
         animation: card 2s ease 0s 1 normal forwards;
         clip-path: polygon(0% 0%, 94% 0, 100% 50%, 94% 100%, 0% 100%);
+        margin: 1rem;
 
     }
     @keyframes card {
