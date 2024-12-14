@@ -26,11 +26,10 @@ function Hero() {
       </div>
         <p style={{ color: "orange" }}>A Fullstack Web Developer</p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-          blanditiis.
+          I have a degree in Bachelor's of Science In Information Technology
         </p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur</p>
+        <p>From Murang'a University of technology</p>
+        <p style={{padding:"1rem",marginTop:".5rem",fontWeight:"500"}}> See More <span>&#8594;</span></p>
 
         <div
           style={{
