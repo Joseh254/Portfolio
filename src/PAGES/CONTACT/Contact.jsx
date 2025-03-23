@@ -65,7 +65,9 @@ function Contact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="submit-button">Send Message</button>
+        <button type="submit" className="submit-button">
+          Send Message
+        </button>
       </form>
       {/* <SimpleSlider/> */}
     </section>

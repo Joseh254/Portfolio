@@ -3,7 +3,7 @@
   background-color: #222; /* Dark background */
   color: #f4f4f4; /* Light text */
   padding: 20px 10px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@
 
 .contact-item .icon {
   margin-right: 10px;
-  color:var(--primary-color);
+  color: var(--primary-color);
 }
 
 .hover-text {
@@ -61,7 +61,6 @@
   opacity: 1;
 }
 
-
 .social-links ul {
   list-style: none;
   padding: 0;
@@ -85,7 +84,6 @@
 .social-links li a:hover {
   color: var(--white-color);
 }
-
 
 .footer-bottom {
   margin-top: 20px;

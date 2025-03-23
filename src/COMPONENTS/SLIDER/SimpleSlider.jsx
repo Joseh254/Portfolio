@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const SimpleSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,7 +7,7 @@ const SimpleSlider = () => {
     "Learn React with ease.",
     "Build amazing projects.",
   ];
-  
+
   const slideDuration = 3000; // Time in milliseconds (3 seconds)
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const SimpleSlider = () => {
             key={index}
             style={{
               ...styles.indicator,
-              backgroundColor: currentIndex === index ? 'blue' : 'gray',
+              backgroundColor: currentIndex === index ? "blue" : "gray",
             }}
           />
         ))}
@@ -38,31 +38,31 @@ const SimpleSlider = () => {
 
 const styles = {
   carousel: {
-    width: '300px',
-    margin: '0 auto',
-    textAlign: 'center',
-    border: '2px solid #ccc',
-    borderRadius: '10px',
-    padding: '20px',
-    position: 'relative',
-    overflow: 'hidden',
+    width: "300px",
+    margin: "0 auto",
+    textAlign: "center",
+    border: "2px solid #ccc",
+    borderRadius: "10px",
+    padding: "20px",
+    position: "relative",
+    overflow: "hidden",
   },
   slide: {
-    fontSize: '18px',
-    padding: '10px',
-    transition: 'opacity 0.5s ease-in-out',
+    fontSize: "18px",
+    padding: "10px",
+    transition: "opacity 0.5s ease-in-out",
   },
   indicators: {
-    marginTop: '10px',
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '5px',
+    marginTop: "10px",
+    display: "flex",
+    justifyContent: "center",
+    gap: "5px",
   },
   indicator: {
-    width: '10px',
-    height: '10px',
-    borderRadius: '50%',
-    cursor: 'pointer',
+    width: "10px",
+    height: "10px",
+    borderRadius: "50%",
+    cursor: "pointer",
   },
 };
 

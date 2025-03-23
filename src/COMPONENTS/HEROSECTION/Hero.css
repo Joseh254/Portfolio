@@ -3,21 +3,19 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 100vh;
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   color: var(--white-color);
   padding: 2rem;
   flex-wrap: nowrap;
-  
 }
-@media screen and (max-width:30em){
-  .hero-section{
+@media screen and (max-width: 30em) {
+  .hero-section {
     width: 100%;
     flex-wrap: wrap;
     font-size: 1rem;
     scale: 1;
-  padding: 3rem;
+    padding: 3rem;
   }
-
 }
 .names-array {
   display: flex;
@@ -25,24 +23,21 @@
   font-family: cursive;
   text-transform: capitalize;
 }
-@media screen and (max-width:30em){
-
-  .names-array{
+@media screen and (max-width: 30em) {
+  .names-array {
     font-size: 3rem;
   }
 }
-@media screen and (max-width:20em){
-
-  .names-array{
+@media screen and (max-width: 20em) {
+  .names-array {
     font-size: 2rem;
   }
 }
-.reference{
+.reference {
   font-size: 4rem;
 }
-@media screen and (max-width:20em){
-
-  .reference{
+@media screen and (max-width: 20em) {
+  .reference {
     font-size: 2rem;
   }
 }
@@ -70,24 +65,24 @@
   animation: image 2s ease 0s 1 normal forwards;
 }
 @keyframes image {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-@media screen and (max-width:39.25em){
-   .hero-section{
+@media screen and (max-width: 39.25em) {
+  .hero-section {
     display: flex;
     flex-direction: column-reverse;
     padding: 1rem;
     /* justify-content: center; */
     align-items: center;
-   } 
+  }
 }
 
 .hero-section img {
@@ -95,35 +90,32 @@
   max-width: 60rem;
   height: auto;
 }
-.buttons{
-  
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-    font-weight: 800;
-  
+.buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  font-weight: 800;
 }
-@media screen and (max-width:30em){
-
-  .buttons{
+@media screen and (max-width: 30em) {
+  .buttons {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .buttons button{
+  .buttons button {
     width: 50%;
   }
 }
-.join-me-button{
+.join-me-button {
   padding: 1rem 4rem;
   background-color: orange;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
-.join-me-button:hover{
+.join-me-button:hover {
   padding: 1rem 4rem;
   border: 1px solid orange;
   color: orange;
@@ -131,39 +123,39 @@
   border-radius: 5px;
   background-color: black;
 }
-.lets-talk-button{
+.lets-talk-button {
   padding: 1rem 4rem;
   border: 1px solid orange;
   color: orange;
   text-decoration: none;
   border-radius: 5px;
 }
-.lets-talk-button:hover{
-background-color:orange;
-color: white;
+.lets-talk-button:hover {
+  background-color: orange;
+  color: white;
 }
-.social-links{
-    display: flex;
-    gap: 3rem;
-    margin-top: 2rem;
+.social-links {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
 }
-.social-links a{
-    color: var(--primary-color);
-    font-size: 2rem;
-    animation: myAnim 2s ease 0s 1 normal forwards;
+.social-links a {
+  color: var(--primary-color);
+  font-size: 2rem;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 @keyframes myAnim {
-	0% {
-		opacity: 0;
-		transform: translateX(-250px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-.no-orange{
+.no-orange {
   padding: 1rem 4rem;
   border: 1px solid orange;
   color: orange;
@@ -171,11 +163,11 @@ color: white;
   border-radius: 5px;
   background-color: black;
 }
-.orange{
+.orange {
   padding: 1rem 4rem;
   border: 1px solid orange;
   color: white;
   text-decoration: none;
-  border-radius: 5px; 
+  border-radius: 5px;
   background-color: orange;
 }

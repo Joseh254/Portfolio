@@ -6,33 +6,37 @@ import { FaDatabase } from "react-icons/fa6";
 import { ImWindows } from "react-icons/im";
 function Certification() {
   const certifications = [
-    { 
-      icon: <FaPython/>,
+    {
+      icon: <FaPython />,
       title: "Python Essentials",
       organization: "Cisco Networking Academy",
       date: "March 2023",
-      description: "Learned core Python concepts, including data structures and algorithms.",
+      description:
+        "Learned core Python concepts, including data structures and algorithms.",
     },
     {
-      icon:<LuRadioTower/>,
+      icon: <LuRadioTower />,
       title: "Operating Systems Basics",
       organization: "Cisco Networking Academy",
       date: "January 2023",
-      description: "Explored OS fundamentals, multitasking, and system management.",
+      description:
+        "Explored OS fundamentals, multitasking, and system management.",
     },
     {
-      icon:<FaDatabase/>,
+      icon: <FaDatabase />,
       title: "Introduction to IoT",
       organization: "Cisco Networking Academy",
       date: "November 2022",
-      description: "Gained insights into IoT concepts and practical applications.",
+      description:
+        "Gained insights into IoT concepts and practical applications.",
     },
     {
-      icon:<ImWindows/>,
+      icon: <ImWindows />,
       title: "Data Science Certification",
       organization: "Cisco Networking Academy",
       date: "April 2023",
-      description: "Covered data visualization, basic machine learning, and data analytics.",
+      description:
+        "Covered data visualization, basic machine learning, and data analytics.",
     },
   ];
 
@@ -49,7 +53,7 @@ function Certification() {
             <span className="certification-date">{certification.date}</span>
           </div>
         ))}
-     </div>
+      </div>
     </div>
   );
 }

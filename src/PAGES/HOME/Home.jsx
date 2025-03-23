@@ -7,10 +7,9 @@ function Home() {
   return (
     <>
       <Hero />
-      <Skills/>
-      <Projects/>
-      <Experience/>
-
+      <Skills />
+      <Projects />
+      <Experience />
     </>
   );
 }

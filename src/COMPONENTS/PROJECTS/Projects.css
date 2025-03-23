@@ -64,7 +64,9 @@
   padding: 1rem;
   opacity: 0; /* Initially hidden */
   transform: translateY(100%); /* Start off-screen below */
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
 }
 
 .project-card:hover .project-details {

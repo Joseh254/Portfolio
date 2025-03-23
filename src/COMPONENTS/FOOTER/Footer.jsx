@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
-import './Footer.css';
+import React from "react";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -52,7 +52,9 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Joseph Mbugua. All Rights Reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} Joseph Mbugua. All Rights Reserved.
+        </p>
       </div>
     </footer>
   );
