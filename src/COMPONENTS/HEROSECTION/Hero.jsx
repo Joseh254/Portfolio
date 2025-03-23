@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import me from "../../assets/me.png";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa6";
@@ -20,7 +19,7 @@ letsTalkBtn.classList.toggle("no-orange")
    <div>
      <section className="hero-section">
       <div>
-      <p style={{fontSize:"4rem"}}>Hi I'M</p>
+      <p  className="reference">Hi I'M</p>
       <div className="names-array">
         {name.map((letter, index) => (
           <p
@@ -40,13 +39,8 @@ letsTalkBtn.classList.toggle("no-orange")
         <p>From Murang'a University of technology</p>
         <p style={{padding:"1rem",marginTop:".5rem",fontWeight:"500"}}> See More <span>&#8594;</span></p>
 
-        <div
-          style={{
-            display: "flex",
-            gap: "2rem",
-            marginTop: "2rem",
-            fontWeight: "800",
-          }}
+        <div className="buttons"
+
         >
           <a className="join-me-button"
           id="join-me-button"
