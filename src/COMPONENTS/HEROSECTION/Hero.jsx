@@ -52,9 +52,9 @@ function Hero() {
             I have a degree in Bachelor's of Science In Information Technology
           </p>
           <p>From Murang'a University of technology</p>
-          <p style={{ padding: "1rem", marginTop: ".5rem", fontWeight: "500" }}>
-            {" "}
-            See More <span>&#8594;</span>
+          <p  className ="read-resume">
+            
+            <a href="https://drive.google.com/file/d/1ZLVUOvDmfxSfG0zvr7Jp2O10dIGNf8rJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Read my resume <span>&#8594;</span></a>
           </p>
 
           <div className="buttons">
