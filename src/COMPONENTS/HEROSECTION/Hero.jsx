@@ -47,11 +47,11 @@ function Hero() {
               </p>
             ))}
           </div>
-          <p style={{ color: "orange" }}>A Fullstack Web Developer</p>
+          <p style={{ color: "orange" }}>A Full-stack  Developer</p>
           <p>
-            I have a degree in Bachelor's of Science In Information Technology
+           focused on creating innovative and impactful
           </p>
-          <p>From Murang'a University of technology</p>
+          <p> technology solutions</p>
           <p  className ="read-resume">
             
             <a href="https://drive.google.com/file/d/1ZLVUOvDmfxSfG0zvr7Jp2O10dIGNf8rJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Read my resume <span>&#8594;</span></a>
