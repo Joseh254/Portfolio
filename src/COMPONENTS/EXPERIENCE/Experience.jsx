@@ -13,8 +13,8 @@ function Experience() {
    <section className='experience-section'>
     <h1 className='experience-heading'>Experience</h1>
         <div key={experiences.title} className='experience-container'>
-            {experiences.map((experience)=>
-            <div className='experience-card'>
+            {experiences.map((experience,index)=>
+            <div className='experience-card' key={index}>
                 <h1>Title: <strong>{experience.title}</strong></h1>
                 <h3>Orgarnization:{experience.organization}</h3>
                 <p>{experience.description}</p>

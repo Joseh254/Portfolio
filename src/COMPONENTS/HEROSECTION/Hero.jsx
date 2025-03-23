@@ -6,7 +6,16 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import "./Hero.css";
 function Hero() { 
-  const name=[,"j","o","s","e","p","h",".","m","b","u","g","u","a"]
+  function handleChangeLetsTalkStyle(){
+    const joinMeBtn = document.getElementById("lets-talk-button")
+    joinMeBtn.classList.toggle("orange")
+  }
+
+  function handleChangeJoinMeButtonStyle(){
+const letsTalkBtn = document.getElementById("join-me-button")
+letsTalkBtn.classList.toggle("no-orange")
+  }
+  const name=[,"j","o","s","e","p","h"," _","m","b","u","g","u","a"]
   return ( 
    <div>
      <section className="hero-section">
@@ -39,28 +48,23 @@ function Hero() {
             fontWeight: "800",
           }}
         >
-          <a
+          <a className="join-me-button"
+          id="join-me-button"
+      onMouseEnter={handleChangeLetsTalkStyle}
+      onMouseLeave={handleChangeLetsTalkStyle}
             href="tel:+254768163608"
             style={{
-              padding: "1rem 4rem",
-              backgroundColor: "orange",
-              color: "#fff",
-              textDecoration: "none",
-              borderRadius: "5px",
+
             }}
           >
             Join Me
           </a>
 
-          <a
+          <a className="lets-talk-button"
+          id="lets-talk-button"
             href="mailto:josephkarimambugua@gmail.com"
-            style={{
-              padding: "1rem 4rem",
-              border: "1px solid orange",
-              color: "orange",
-              textDecoration: "none",
-              borderRadius: "5px",
-            }}
+            onMouseEnter={handleChangeJoinMeButtonStyle}
+            onMouseLeave={handleChangeJoinMeButtonStyle}
           >
             Let's Talk
           </a>

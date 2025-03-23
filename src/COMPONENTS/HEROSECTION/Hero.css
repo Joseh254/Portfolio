@@ -50,15 +50,46 @@
 		transform: translateX(0);
 	}
 }
-@media screen and (max-width:38.25em){
-   .hero-image{
-    display: none;
+@media screen and (max-width:39.25em){
+   .hero-section{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem;
+    /* justify-content: center; */
+    align-items: center;
    } 
 }
+
 .hero-section img {
   width: 100%;
   max-width: 60rem;
   height: auto;
+}
+.join-me-button{
+  padding: 1rem 4rem;
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.join-me-button:hover{
+  padding: 1rem 4rem;
+  border: 1px solid orange;
+  color: orange;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: black;
+}
+.lets-talk-button{
+  padding: 1rem 4rem;
+  border: 1px solid orange;
+  color: orange;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.lets-talk-button:hover{
+background-color:orange;
+color: white;
 }
 .social-links{
     display: flex;
@@ -80,4 +111,20 @@
 		opacity: 1;
 		transform: translateX(0);
 	}
+}
+.no-orange{
+  padding: 1rem 4rem;
+  border: 1px solid orange;
+  color: orange;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: black;
+}
+.orange{
+  padding: 1rem 4rem;
+  border: 1px solid orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; 
+  background-color: orange;
 }
