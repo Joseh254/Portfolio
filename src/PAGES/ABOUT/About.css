@@ -36,7 +36,7 @@
   border: inset 3px orange;
   cursor: pointer;
 }
-.about-content a{
+.about-content a {
   color: black;
 }
 .education-background-wrapper {
@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  top: -5rem;
+  top: -3rem;
 }
 .logoo img {
   width: 25%;
@@ -88,60 +88,74 @@
 .education-container h1 {
   text-transform: capitalize;
   margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 .strong {
   font-weight: 600;
 }
-.color{
-  background-color: orange;
-}
-.proffesion{
+
+.proffesion {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
 }
-.proffesion img{
+.proffesion img {
   width: 50%;
 }
-.profession-description{
+.profession-description {
   display: flex;
   flex-direction: column;
   width: 50%;
   justify-content: center;
   align-items: center;
 }
-.goals-section{
+.goals-section {
   display: flex;
   flex-direction: column;
   width: 60%;
   gap: 5rem;
 }
-.mission-wrapper,.vission-wrapper{
+.mission-wrapper,
+.vission-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.mission, .vission{
-   display: flex;
-   gap: 2rem;
-   justify-content: center;
-   /* background-color: ; */
-   border-radius: 10rem;
-   padding: 1.5rem;
-   border: 1px solid;
-   border-left: 10px solid orange;
-   border-right: 10px solid  orange;
+.mission,
+.vission {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  border-radius: 10rem;
+  padding: 1.5rem;
+  border: 1px solid;
+  border-left: 10px solid orange;
+  border-right: 10px solid rgb(153, 141, 75);
 }
-.vission img{
+.mission{
+  border-right: 10px solid orange;
+  border-left: 10px solid rgb(153, 141, 75);
+}
+.mission:hover,
+.vission:hover{
+  background-color: rgb(235, 231, 231);
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+}
+.vission img {
   display: flex;
   justify-content: center;
   width: 7%;
   border-radius: 100%;
 }
-.mission img{
+.mission img {
   display: flex;
   justify-content: center;
   width: 7%;
   border-radius: 100%;
+}
+.color{
+  background-color: orange;
+  display: none;
 }
