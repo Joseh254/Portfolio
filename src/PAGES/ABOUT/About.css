@@ -36,53 +36,112 @@
   border: inset 3px orange;
   cursor: pointer;
 }
-.education-background-wrapper{
+.about-content a{
+  color: black;
+}
+.education-background-wrapper {
   display: flex;
-  background-color: rgb(248, 246, 244);
+  background-color: rgb(250, 249, 248);
   flex-direction: column;
   align-items: center;
   width: 100%;
   padding: 2rem;
 }
-.educations-wrapper{
+.educations-wrapper {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
   gap: 5%;
-  
+  border-bottom: 1px solid orange;
+  padding-bottom: 2rem;
 }
-.education-container{
+.education-container {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  gap: 1rem;
   width: 100%;
   margin-top: 10rem;
   border: 1px outset;
-  
+  background-color: white;
+  border-radius: 10px;
   position: relative;
 }
-.logoo{
-  width: 100%;  
+.logoo {
+  width: 100%;
   position: absolute;
   display: flex;
-    justify-content: center;
-align-items: center; 
-top: -5rem;
+  justify-content: center;
+  align-items: center;
+  top: -5rem;
 }
-.logoo img{
+.logoo img {
   width: 25%;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: inset orange;
-  padding: .5rem;
+  padding: 0.5rem;
 }
-.education-container h1{
+.education-container h1 {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
-.strong{
+.strong {
   font-weight: 600;
+}
+.color{
+  background-color: orange;
+}
+.proffesion{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.proffesion img{
+  width: 50%;
+}
+.profession-description{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.goals-section{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 5rem;
+}
+.mission-wrapper,.vission-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mission, .vission{
+   display: flex;
+   gap: 2rem;
+   justify-content: center;
+   /* background-color: ; */
+   border-radius: 10rem;
+   padding: 1.5rem;
+   border: 1px solid;
+   border-left: 10px solid orange;
+   border-right: 10px solid  orange;
+}
+.vission img{
+  display: flex;
+  justify-content: center;
+  width: 7%;
+  border-radius: 100%;
+}
+.mission img{
+  display: flex;
+  justify-content: center;
+  width: 7%;
+  border-radius: 100%;
 }
