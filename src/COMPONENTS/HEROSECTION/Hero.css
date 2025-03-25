@@ -90,19 +90,19 @@
   max-width: 60rem;
   height: auto;
 }
-.read-resume{
+.read-resume {
   display: flex;
   justify-content: center;
   padding: 1rem;
-   margin-top: 2rem;
-   font-size: 2rem;
-   margin-bottom: 5rem;
-   font-weight: 800;
- text-transform: capitalize;
-   border:1px,solid,orange;
-   border-top: none;
-   border-left: none;
-   border-right: none;
+  margin-top: 2rem;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  border: 1px, solid, orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .buttons {
   display: flex;
@@ -169,8 +169,8 @@
     transform: translateX(0);
   }
 }
-.social-links a:hover{
-  color:white;
+.social-links a:hover {
+  color: white;
 }
 .no-orange {
   padding: 1rem 4rem;

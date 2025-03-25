@@ -47,14 +47,17 @@ function Hero() {
               </p>
             ))}
           </div>
-          <p style={{ color: "orange" }}>A Full-stack  Developer</p>
-          <p>
-           focused on creating innovative and impactful
-          </p>
+          <p style={{ color: "orange" }}>A Full-stack Developer</p>
+          <p>focused on creating innovative and impactful</p>
           <p> technology solutions</p>
-          <p  className ="read-resume">
-            
-            <a href="https://drive.google.com/file/d/1ZLVUOvDmfxSfG0zvr7Jp2O10dIGNf8rJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Read my resume <span>&#8594;</span></a>
+          <p className="read-resume">
+            <a
+              href="https://drive.google.com/file/d/1ZLVUOvDmfxSfG0zvr7Jp2O10dIGNf8rJ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read my resume <span>&#8594;</span>
+            </a>
           </p>
 
           <div className="buttons">

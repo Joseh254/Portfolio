@@ -11,7 +11,6 @@ import project7 from "../../assets/project7.png";
 import vsd from "../../assets/vsd.png";
 import mpesa from "../../assets/mpesa.png";
 
-
 function Projects() {
   const projects = [
     {

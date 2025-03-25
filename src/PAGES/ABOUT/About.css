@@ -1,4 +1,4 @@
-.About-page{
+.About-page {
   margin-top: 7rem;
   padding: 1rem;
   display: flex;
@@ -7,21 +7,21 @@
   align-items: center;
   width: 100%;
 }
-.abouthero{
+.abouthero {
   display: flex;
-justify-content: center;
-padding: 1rem;
+  justify-content: center;
+  padding: 1rem;
 }
-.abouthero img{
+.abouthero img {
   width: 50%;
+  opacity: 0.9;
 }
-.about-content{
+.about-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-.about-content button{
+.about-content button {
   width: 30%;
   padding: 1rem;
   background-color: white;
@@ -32,6 +32,57 @@ padding: 1rem;
   border-radius: 25px;
   margin-top: 2rem;
 }
-.about-content button:hover{
-  border: inset 3px orange; 
+.about-content button:hover {
+  border: inset 3px orange;
+  cursor: pointer;
+}
+.education-background-wrapper{
+  display: flex;
+  background-color: rgb(248, 246, 244);
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+.educations-wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  
+}
+.education-container{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 10rem;
+  border: 1px outset;
+  
+  position: relative;
+}
+.logoo{
+  width: 100%;  
+  position: absolute;
+  display: flex;
+    justify-content: center;
+align-items: center; 
+top: -5rem;
+}
+.logoo img{
+  width: 25%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: inset orange;
+  padding: .5rem;
+}
+.education-container h1{
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.strong{
+  font-weight: 600;
 }
