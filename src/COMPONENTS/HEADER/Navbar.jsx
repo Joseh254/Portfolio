@@ -38,7 +38,7 @@ function Navbar() {
             className={({ isActive }) =>
               isActive ? "nav-link active-link" : "nav-link"
             }
-          >
+          > 
             About
           </NavLink>
         </li>

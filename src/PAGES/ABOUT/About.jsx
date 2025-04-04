@@ -8,6 +8,14 @@ import mike from '../../assets/mikeRoss.jpg';
 import victory from '../../assets/victory.jpg';
 import john from '../../assets/johndoe.jpg';
 function About() {
+  window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
   const educationArray = [
     {
       schoologo: about,
@@ -31,6 +39,9 @@ function About() {
 
   return (
     <div className="About-page">
+        <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
       <div className="abouthero">
         <img src={about} alt="" />
         <div className="about-content">
