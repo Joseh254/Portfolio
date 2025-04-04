@@ -4,7 +4,9 @@ import about from "../../assets/about.png";
 import profession from "../../assets/goals.png";
 import mission from "../../assets/mission.png";
 import vission from "../../assets/vision.png";
-import { useEffect } from "react";
+import mike from '../../assets/mikeRoss.jpg';
+import victory from '../../assets/victory.jpg';
+import john from '../../assets/johndoe.jpg';
 function About() {
   const educationArray = [
     {
@@ -104,6 +106,49 @@ function About() {
             ))}
         </div>
       </section>
+
+
+      <div className="colllaborators-wrapper">
+        <h1>Collaborators</h1>
+
+        <div className="collaborators-container">
+          <div className="collaborators">
+           <img src={victory} alt="Victory njeri" />
+           <p className="collaborator-name">victory njeri</p>
+           <p className="collaborator-role">Full Stack developer</p>
+           <p className="collaborator-description">Some text that describes me lorem ipsum ipsum lorem.</p>
+           <a href="http://" className="collaborator-email"><i>njerivictory52@gmail.com</i></a>
+           <div className="collaborator-contact-button">
+           <button >Contact</button>
+           </div>
+          </div>
+
+          <div className="collaborators">
+          <img src={mike} alt="Mike Ross" />
+          
+           <p className="collaborator-name">Mike Ross</p>
+           <p className="collaborator-role"> Backend developer</p>
+           <p className="collaborator-description">Some text that describes me lorem ipsum ipsum lorem.</p>
+           <a href="http://" className="collaborator-email"><i>mikeross@gmail.com</i></a>
+           <div className="collaborator-contact-button">
+           <button>Contact</button>
+           </div>
+          </div>
+
+          <div className="collaborators">
+          <img src={john} alt="phyllis wambui" />
+          <p className="collaborator-name">phyllis wambui</p>
+           <p className="collaborator-role">Designer</p>
+           <p className="collaborator-description">Some text that describes me lorem ipsum ipsum lorem.</p>
+           <a href="http://" className="collaborator-email"><i>phylliswambui32@gmail.com</i></a>
+           <div className="collaborator-contact-button">
+           <button>Contact</button>
+           </div>
+           
+          </div>
+
+        </div>
+      </div>
 
       <div className="goals-section">
         <div className="mission-wrapper">
