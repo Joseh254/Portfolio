@@ -98,6 +98,7 @@
   padding-bottom: 2rem;
 }
 .education-container {
+  
   display: flex;
   flex-direction: column;
   padding: 1rem;
